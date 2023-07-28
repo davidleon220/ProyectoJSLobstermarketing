@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    
+    <title>Agencia Lobster Marketing</title>
+</head>
+<body>
+    
+    <header>
+
+        <a href="/index.html"><img class="logo" src="../imagenes/logo.png" alt="logo"></a>
+
+        <div class="headerredes">
+            <div>
+
+                <a class="facebook" href="https://www.facebook.com/" target="_blank"><img
+                        src="../imagenes/facebook.png" alt="redes"></a>
+                <a class="instagram" href="https://www.instagram.com" target="_blank"><img
+                        src="../imagenes/instagram.png" alt="redes"></a>
+                <a class="linkedin" href="https://www.linkedin.com/" target="_blank"><img
+                        src="../imagenes/linkedin.png" alt="redes"></a>
+            </div>
+
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="menu" class="nav-item" href="../index.html">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="menu" class="nav-item" aria-current="page"
+                                    href="../pages/servicios.html">Servicios</a>
+                                    <a class="menu" class="nav-item" aria-current="page"
+                                    href="acceso.html">Resgistrase</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        
+    </header>
+            <div class="banner">
+            <img src="../imagenes/bannerlobster.png" alt="banner">
+            </div>
+    
+            
+    <h2>Registrate</h2>
+    <form id="register" class="email">
+        <label for="nombre">Email</label>
+        <br><br>
+        <input type= "text" id= "userRegister" class="use">
+        <br><br>
+        <label for ="pass"> Contraseña </label>
+        <br><br>
+        <input type ="password" id = "passRegister" class="pass">
+        <br><br>
+        <button type ="submit" id = "registrar" class="ingre"> Registrarse </button>
+    </form>
+    <h2> Ingresa </h2>
+    <form id = "login" class="email">
+        
+        <label for="nombre"> Email </label>
+        <br><br>
+        <input type="text" id= "user" class="use">
+        <br><br>
+        <label for="pass"> Contraseña </label>
+        <br><br>
+        <input type="password" id = "pass" class="pass">
+        <br><br>
+        <button type="submit" id = "ingresar" class="ingre"> Ingresar </button>
+    </form>
+    <div id= "error"> 
+
+    </div> 
+        
+    <script src="/javascript/acceso.js" ></script>
+</body>
+</html>
